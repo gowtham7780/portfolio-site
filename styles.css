@@ -17,13 +17,13 @@ hr {
     margin: 2rem 0rem;
 }
 
-
+/** spaces **/
 
 .margin-md {
     margin: 2rem;
 }
 
-
+/** container **/
 .container {
     padding: 0rem 1rem;
 }
@@ -35,7 +35,7 @@ hr {
 }
   
 
-
+/** links **/
 .link {
     box-sizing: border-box;
     text-decoration: none;
@@ -61,7 +61,9 @@ hr {
     background-color: #7C3AED;
 }
 
+/** look into BEM naming convention for CSS **/
 
+/** lists **/
 
 
 .list-item-inline {
@@ -69,7 +71,7 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-
+/** navigation **/
 
 .navigation {
     background-color: var(--primary-color);
@@ -96,7 +98,7 @@ hr {
     font-weight: bold;
 }
 
-
+/** header **/
 
 .hero {
     padding: 2rem;
@@ -121,7 +123,7 @@ hr {
     color: var(--primary-color);
 }
 
-
+/** sections **/
 
 .section {
     padding: 2rem;
@@ -136,7 +138,7 @@ hr {
     background-color: var(--off-white);
 }
 
-
+/** footers **/
 
 .footer {
     background-color:var(--primary-color);
@@ -159,4 +161,91 @@ hr {
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+/** projects **/
+.showcase-list {
+    padding: 2rem;
+}
+
+/** blogs **/
+.showcase-blog {
+    padding-bottom: 6rem;
+    
+}
+.blogs{
+    color: cornflowerblue;
+    text-align: center;
+
+}
+.iphone{
+    color: black;
+    text-align: center;
+}
+.mobile{
+    max-width: 15%;
+    width: 350px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.summary{
+    color: #7C3AED;
+}
+.screen{
+    padding: 2rem;
+    text-align-last: center;
+}
+.features{
+    color: #7C3AED ;
+}
+.readmore{
+    color: white;
+    border: 1px solid;
+    display: block;
+    max-width: 140px;
+    background-color:#7C3AED ;
+    border-radius: 0.5rem;
+    text-decoration: none;
+
+    
+}
+.project, .blog{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1rem;
+    background-color: #f3f4f6;
+    padding: 5rem 1rem;
+    border-color: var(--off-white);
+
+
+}
+.code{
+   text-align: center;
+   display: inline; 
+   padding: 1rem;
+}
+.source{
+    text-decoration: none;
+    padding: 0.5rem;
+     border: 1px solid;
+     background-color: #7C3AED;
+     color: white;
+     border-radius: 0.5rem;
+}
+.project1, .blog1{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 1rem;
+    padding:5rem 1rem;
+    border-color: white;
+    
+    
+}
+.dargah{
+    max-width: 80%;
+    width: 350px;
+    display: block;
+    margin: auto;
+
 }
